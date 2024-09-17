@@ -23,4 +23,4 @@ Mention the skills that this project highlights:
 - Version control with Git
 
 ## Live Demo
-[Click here to view the live demo]((https://youssefmo-22.github.io/CRUD-system/))
+[Click here to view the live demo](https://youssefmo-22.github.io/CRUD-system/)
