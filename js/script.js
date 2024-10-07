@@ -188,7 +188,7 @@ function deleteAll(){
 
 //TODO: function to validate name input by regex
 function regexValidationName(){
-    var regex = /^[A-Z][a-z\s]{0,20}$/;
+    var regex = /^[A-Z][a-zA-Z0-9\s]{0,20}$/;
     if(regex.test(productName.value)){
             productName.classList.add('is-valid');
             productName.classList.remove('is-invalid');
