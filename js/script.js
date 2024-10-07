@@ -61,7 +61,7 @@ function displayProduct(arrayContainer) {
         cartona += `<tr>
                         <td>${i + 1}</td>
                         <td>${arrayContainer[i].name}</td>
-                        <td>${arrayContainer[i].price}</td>
+                        <td>${arrayContainer[i].price} EGP</td>
                         <td>${arrayContainer[i].description}</td>
                         <td>${arrayContainer[i].category}</td>
                         <td class="d-flex justify-content-evenly">
