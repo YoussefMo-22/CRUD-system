@@ -309,5 +309,6 @@ function clearAllCheckboxes() {
     checkboxes.forEach(checkbox => {
         checkbox.checked = false;
     });
+    displayProduct(productContainer);
 }
 

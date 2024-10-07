@@ -34,31 +34,32 @@
             </div>
             <div class="d-flex justify-content-between align-items-center mt-3">
                 <div class="filterContainer d-flex">
-                    <label for="filterto" class="form-label fw-bold text-white me-2">Filter to:</label>
+                    <label for="filterto" class="form-label fw-bold text-white me-2">Filter by:</label>
                     <div class="form-check me-2">
                         <input class="form-check-input" type="checkbox" value="smartphone" id="smartphone" name="category" onchange="filterCategories()">
-                        <label class="form-check-label text-white" for="smartphone">
+                        <label class="form-check-label text-white" for="smartphone" role="button">
                             Smartphone
                         </label>
                     </div>
                     <div class="form-check me-2">
                         <input class="form-check-input" type="checkbox" value="laptop" id="laptop" name="category" onchange="filterCategories()">
-                        <label class="form-check-label text-white" for="laptop">
+                        <label class="form-check-label text-white" for="laptop" role="button">
                             Laptop
                         </label>
                     </div>
                     <div class="form-check me-2">
                         <input class="form-check-input" type="checkbox" value="smartwatch" id="smartwatch" name="category" onchange="filterCategories()">
-                        <label class="form-check-label text-white" for="smartwatch">
+                        <label class="form-check-label text-white" for="smartwatch" role="button">
                             Smartwatch
                         </label>
                     </div>
                     <div class="form-check me-2">
                         <input class="form-check-input" type="checkbox" value="headphone" id="headphone" name="category" onchange="filterCategories()">
-                        <label class="form-check-label text-white" for="headphone">
+                        <label class="form-check-label text-white" for="headphone" role="button">
                             Headphone
                         </label>
                     </div>
+                    <label for="filterto" class="form-label text-white mx-2" onclick="clearAllCheckboxes()" role="button">Clear</label>
                 </div>
                 <div class="deleteAllBtn d-flex justify-content-end"><button class="btn btn-danger px-4 fw-bold"
                         onclick="deleteAll()">Delete All</button></div>
